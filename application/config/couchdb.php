@@ -7,7 +7,7 @@
 $config['development'] = array(
   'host'    => '127.0.0.1',
   'port'    => 5984,
-  'dbname'  => 'bdde_cara',
+  'dbname'  => 'dbname',
   'username'=> '',
   'password'=> '',
 );
@@ -15,9 +15,9 @@ $config['development'] = array(
 $config['production'] = array(
   'host'    => '127.0.0.1',
   'port'    => 5984,
-  'dbname'  => 'bdde_cara',
+  'dbname'  => 'dbname',
   'username'=> '',
   'password'=> '',
 );
 
-$config['db_selected'] = $config[ENVIRONMENT];
+$config['db_selected'] = $config['development'];
