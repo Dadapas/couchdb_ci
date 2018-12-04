@@ -6,8 +6,7 @@
 **/
 $config['development'] = array(
   'host'    => '127.0.0.1',
-  'port'    => 5984,
-  'dbname'  => 'dbname',
+  'port'    => 5984,,
   'username'=> '',
   'password'=> '',
 );
@@ -15,7 +14,6 @@ $config['development'] = array(
 $config['production'] = array(
   'host'    => '127.0.0.1',
   'port'    => 5984,
-  'dbname'  => 'dbname',
   'username'=> '',
   'password'=> '',
 );
